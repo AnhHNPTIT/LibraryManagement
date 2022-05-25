@@ -121,7 +121,7 @@ int searchBookByID()
             printf("------------------------------------------------------------"
                     "-----------------------------------------------------------------------\n");
             printf("%-10s%-30s%-30s%-30s%-10s\n","Book id","Book name","Category","Author","Quantity");
-            printf("%-10s %-30s %-30s %-30s %-10d \n\n",listBooks[i].bookID,listBooks[i].name,listBooks[i].category,listBooks[i].author,listBooks[i].quantity);
+            printf("%-10s%-30s%-30s%-30s%-10d\n",listBooks[i].bookID,listBooks[i].name,listBooks[i].category,listBooks[i].author,listBooks[i].quantity);
             printf("------------------------------------------------------------"
                     "-----------------------------------------------------------------------\n");
             return 1;
